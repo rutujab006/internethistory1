@@ -1,23 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>W3.CSS Template</title>
+<title>Internet History</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
     link {
         display: none;
     }
     html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+    .w3-sidebar {
+        z-index: 3;
+        width: 250px;
+        top: 43px;
+        bottom: 0;
+        height: inherit;
+    }
+    .top {
+        top: 0;
+    }
 
-
-
-
+    .top, .w3-bottom {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
     .padding-64 {
         padding-top: 64px!important;
         padding-bottom: 120px!important;
     }
+    .theme-l1 {
+        color: #fff !important;
+        background-color: #333333 !important;
+    }
 
+    .container, .w3-panel {
+        padding: 0.01em 16px;
+    }
+    .theme {
+        color: #fff !important;
+        background-color: #000000 !important;
+    }
+
+    .left-align {
+        text-align: left!important;
+    }
     .large {
         font-size: 18px!important;
     }
@@ -45,6 +74,7 @@
 
     .bar .bar-item {
         padding: 8px 16px;
+        float: left;
         width: auto;
         border: none;
         display: block;
@@ -93,6 +123,12 @@
         cursor: pointer;
         white-space: nowrap;
     }
+    footer {
+        text-align: center;
+        background-color: DarkSalmon;
+        color: white;
+        margin: 378px 0 0 0;
+    }
     @media (min-width: 601px)
         .col.m8, .twothird {
             width: 66.66666%;
@@ -117,7 +153,13 @@
 
 <!-- END MAIN -->
 </div>
+<footer>
+    <div class="footer" style=" text-align: center; margin-right: 20px;  font-size: 15px; color: white; background-color: black">
+        &copy; <a href="https://github.com/rutujab006/internethistory1"> 2021 Rutuja Bendre</a> - <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fkumar-kazi.eastus.azurecontainer.io%2F">W3C</a>
+    </div>
 
+
+</footer>
 
 
 </body>
