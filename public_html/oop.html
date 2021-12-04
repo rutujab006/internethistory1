@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Internet History</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  link {
+    display: none;
+  }
+  html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+  .w3-sidebar {
+    z-index: 3;
+    width: 250px;
+    top: 43px;
+    bottom: 0;
+    height: inherit;
+  }
+  .top {
+    top: 0;
+  }
+
+  .top, .w3-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  .padding-64 {
+    padding-top: 64px!important;
+    padding-bottom: 120px!important;
+  }
+  .theme-l1 {
+    color: #fff !important;
+    background-color: #333333 !important;
+  }
+
+  .container, .w3-panel {
+    padding: 0.01em 16px;
+  }
+  .theme {
+    color: #fff !important;
+    background-color: #000000 !important;
+  }
+
+  .left-align {
+    text-align: left!important;
+  }
+  .large {
+    font-size: 18px!important;
+  }
+  .top {
+    top: 0;
+  }
+  .top, .bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  .bar {
+    width: 100%;
+    overflow: hidden;
+  }
+  .container, .panel {
+    padding: 0.01em 16px;
+  }
+  .text-teal, .hover-text-teal:hover {
+    color: #9d062d!important;
+  }
+  .bar .button {
+    white-space: normal;
+  }
+
+  .bar .bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+  }
+  .theme-l1 {
+    color: #fff !important;
+    background-color: #333333 !important;
+  }
+  a:hover {
+    background-color: white;
+    color: black;
+  }
+  .right {
+    float: right!important;
+  }
+  .theme-l1 {
+    color: #fff !important;
+    background-color: #333333 !important;
+  }
+  .container, .panel {
+    padding: 0.01em 16px;
+  }
+  .col.m8, .twothird {
+    width: 66.66666%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 33.33333333333333%;
+  }
+  .col-8 {
+    width: 66.66666666666667%;
+  }
+  .btn, .button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  footer {
+    text-align: center;
+    background-color: DarkSalmon;
+    color: white;
+    margin: 378px 0 0 0;
+  }
+  @media (min-width: 601px)
+    .col.m8, .twothird {
+      width: 66.66666%;
+    }
+</style>
+<body>
+
+<!-- Navbar -->
+
+<div class="top">
+  <div class="bar theme top left-align large">
+    <a href="./python.html" class="bar-item button theme-l1">Home</a>
+  </div>
+</div>
+
+
+<div class="padding-64 col-12">
+  <div class="container">
+    <img width="50%" src="./oop1.png">
+    <h2>OOP Glossary</h2>
+    <p>
+      Below will be a detailed list of Object-Oriented Programming terminology with their corresponding definitions,
+      for your use.
+    </p>
+    <ul>
+      <li>
+        <b>Encapsulation:</b> a core principle of OOP. The natural division of labor within your program,
+        allocating different tasks to different parts of your program
+      </li>
+      <li>
+        <b>Abstraction:</b> a core principle of OOP. Users can only indirectly change the state of a method or class
+        to improve security. A classes internal data and functions are hidden from the user
+      </li>
+      <li>
+        <b>Inheritance:</b> a core principle of OOP. You can have a 'parent' class and 'children' classes, where
+        the children inherit all or some attributes of the parents while also using their own methods
+      </li>
+      <li>
+        <b>Polymorphism:</b> a core principle of OOP. The interpreter of the language will be able to tell the difference
+        between many similar named classes and methods and return the proper data
+      </li>
+      <li>
+        <b>Class:</b> a template of data that can be replicated many times.
+      </li>
+      <li>
+        <b>Object:</b> the result of the replicated class. When a class is called from code and instantiated with a
+        variable, it becomes an object of the class
+      </li>
+      <li>
+        <b>Method:</b> a function that belongs to a class. When that function is called, it is considered a method
+      </li>
+      <li>
+        <b>Factory:</b> an object which creates other objects, utilizing poly,morphism to accomplish a task
+      </li>
+      <li>
+        <b>Instantiation:</b> the creation of an object. When an object is created from a class, the object is
+        instantiated
+      </li>
+      <li>
+        <b>Namespace:</b> when a class is instantiated with an equivalence to a certain variable, the pair and
+        subsequent pairs with the program can be considered a namespace
+      </li>
+      <li
+      ><b>Constructor:</b> this is a method within Python that initializes and assign values in a class when it is
+        created.
+      </li>
+      <li>
+        <b>Fixture:</b> primarily used for testing. This is a piece of code that will run everytime a test is executed
+      </li>
+      <li>
+        <b>Type Hint:</b> quite literally it's name, you tell give Python a hint as to which type of object
+        should be utilized when a program is run. Helps increase predictability with extremely large and complex
+        programs
+      </li>
+      <li>
+        <b>Type Cast:</b> having the ability to specify the type of data Python should read information as, similar
+        to type hinting with classes. Also having the ability to convert data types
+      </li>
+      <li>
+        <b>Unit Test:</b> testing individual aspects of a program, such as specific functions and classes without
+        running the full program
+      </li>
+      <li>
+        <b>Static:</b> functions that are specific to a file, and subsequently cannot be seen by functions outside of
+        the file
+      </li>
+      <li>
+        <b>Facade:</b> a design pattern to structure code. It simplifies the interface to a complex set of classes
+      </li>
+      <li>
+        <b>Property:</b> a set of methods which 'get' a value and 'set' the new value
+      </li>
+      <li>
+        <b>Tuple:</b> a common data structure that consists of a set of items with a specific order that are
+        unchangeable
+      </li>
+      <li>
+        <b>Decorator Method:</b> a design pattern to structure code. Adds functionality to a class without directly
+        changing it
+      </li>
+    </ul>
+    </p>
+  </div>
+</div>
+</div>
+
+
+<!-- END MAIN -->
+</div>
+<footer>
+  <div class="footer" style=" text-align: center; margin-right: 20px;  font-size: 15px; color: white; background-color: black">
+    &copy; <a href="https://github.com/rutujab006/internethistory1"> 2021 Rutuja Bendre</a> - <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fhistoryofinternet2.eastus.azurecontainer.io%2F">W3C</a>
+  </div>
+
+
+</footer>
+
+
+</body>
+</html>

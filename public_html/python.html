@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Internet History</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="sidebar red collapse top large padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+
+    <div class="container">
+        <a href="./index.html" class="bar-item button hover-white">Home</a>
+    </div>
+    <div class="bar-block">
+        <a href="#" class="bar-item button hover-white">Pylint</a>
+        <a href="./oop.html" class="bar-item button hover-white">OOP</a>
+        <a href="./tipsandtrick2.html" class="bar-item button hover-white">AAA Testing</a>
+        <a href="./separation.html" class="bar-item button hover-white">Separation</a>
+    </div>
+</nav>
+<!-- Top menu on small screens -->
+<header class="container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+    <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+    <span>Menu</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="main" style="margin-left:340px;margin-right:40px">
+    <div class="container" style="margin-top:0px" id="showcase">
+        <h1 class="jumbo"><b>Pylint</b></h1>
+    </div>
+
+    <!-- Services -->
+    <div class="container" id="services" style="margin-top:0px">
+        <h1>3 Tips and Tricks for Implementing Pylint (For a Beginner)</h1>
+        <p>
+            Technical factors are rarely a primary concern while learning to program, and why should they be? When you first start learning to code, your major focus is on making sure your program works as intended, rather than stress testing it with thousands of data points. Once you've progressed past the basic stage, testing your software becomes a priority, and one way to do so is to use Pylint. According to the Pylint description, "Pylint is a Python code checking tool that looks for errors, tries to impose a coding standard, and detects code smells. It can also look for specific type issues, make suggestions for how to modify specific blocks, and provide information about the code's complexity." I'll try to highlight 5 tips for a newbie who is just getting started with Pylint below.
+        </p>
+        <ol>
+            <li>Learn to interpret error signals!</li>
+            <ul>
+                <li>
+                    Without meaning to offend you, coding is a challenging task that is rife with errors. In your first application, you will almost definitely make numerous errors. These errors don't go away even if you're a seasoned pro! As a result, studying the error messages will enable you to diagnose and resolve issues as soon as they arise.
+                </li>
+            </ul>
+            <li>Errors can be turned off.</li>
+            <ul>
+                <li>
+                    Let's say you've written a program and Pylint keeps returning irrelevant error messages (which is not uncommon). Pylint will not identify your code as an error if you use # disable=whatever-error-message in your code.
+                </li>
+            </ul>
+            <li>Pylint isn't the be-all and end-all of your code checking.</li>
+            <ul>
+                <li>
+                    Honestly. Pylint is merely a second thought. The information it provides is generic, and it was created to be as comprehensive as possible for all types of code. As a result, some of the mistakes it generates might not be reflective of your own code. The errors may be disastrous in some situations, but they may not be an issue in others. Make sure you double-check your assumptions before proceeding, and then go on your happy way.
+                </li>
+            </ul>
+        </ol>
+
+    </div>
+</div>
+
+<!-- Header -->
+
+<footer>
+    <div class="footer" style=" text-align: center; margin-right: 20px;  font-size: 15px; color: white; background-color:#009688;">
+        &copy; <a href="https://github.com/rutujab006/internethistory1"> 2021 Rutuja Bendre</a> - <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fhistoryofinternet2.eastus.azurecontainer.io%2F">W3C</a>
+    </div>
+
+
+</footer>
+
+
+
+
+</body>
+</html>
